@@ -149,35 +149,37 @@ Metrics:
 reports/model_results.csv
 ```
 
-Figures:
+## Visualizations
 
-```text
-./reports/figures/01_historical_load.png
-https://github.com/prsharonmathew/Benchmarking-Short-Term-Load-Forecasting-Models/blob/main/reports/figures/02_train_test_split.pngreports/figures/02_train_test_split.png
-https://github.com/prsharonmathew/Benchmarking-Short-Term-Load-Forecasting-Models/blob/main/reports/figures/03_actual_vs_predicted_test_period.png
-https://github.com/prsharonmathew/Benchmarking-Short-Term-Load-Forecasting-Models/blob/main/reports/figures/04_actual_vs_predicted_final_14_days.png
-https://github.com/prsharonmathew/Benchmarking-Short-Term-Load-Forecasting-Models/blob/main/reports/figures/05_model_metric_comparison.png
-https://github.com/prsharonmathew/Benchmarking-Short-Term-Load-Forecasting-Models/blob/main/reports/figures/06_feature_importance_random_forest.png
-```
+### Historical Load
+
+![Historical Load](reports/figures/01_historical_load.png)
+
+### Train/Test Split
+
+![Train/Test Split](reports/figures/02_train_test_split.png)
+
+### Actual vs Predicted: Test Period
+
+![Actual vs Predicted Test Period](reports/figures/03_actual_vs_predicted_test_period.png)
+
+### Actual vs Predicted: Final 14 Days
+
+![Actual vs Predicted Final 14 Days](reports/figures/04_actual_vs_predicted_final_14_days.png)
+
+### Model Metric Comparison
+
+![Model Metric Comparison](reports/figures/05_model_metric_comparison.png)
+
+### Random Forest Feature Importance
+
+![Random Forest Feature Importance](reports/figures/06_feature_importance_random_forest.png)
 
 Processed data:
 
 ```text
 data/processed/load_prepared.csv
 ```
-
-## How This Matches the Working Student Data Scientist Role
-
-This project connects directly to the role requirements:
-
-- Benchmarking machine-learning models for an internal customer-style forecasting problem
-- Building a compact prototype rather than a one-off notebook
-- Verifying model performance against a clear naive baseline
-- Using clean Python modules, type hints, docstrings, and reusable functions/classes
-- Applying time-series validation that respects chronological order
-- Creating interview-readable visualizations and a clear results table
-- Preparing the structure for future production work, code review, and Git-based collaboration
-- Connecting to energy and grid-related demand forecasting, which matches my academic and research background
 
 ## Possible Next Steps
 
