@@ -152,7 +152,7 @@ reports/model_results.csv
 Figures:
 
 ```text
-https://github.com/prsharonmathew/Benchmarking-Short-Term-Load-Forecasting-Models/blob/main/reports/figures/01_historical_load.png
+./reports/figures/01_historical_load.png
 https://github.com/prsharonmathew/Benchmarking-Short-Term-Load-Forecasting-Models/blob/main/reports/figures/02_train_test_split.pngreports/figures/02_train_test_split.png
 https://github.com/prsharonmathew/Benchmarking-Short-Term-Load-Forecasting-Models/blob/main/reports/figures/03_actual_vs_predicted_test_period.png
 https://github.com/prsharonmathew/Benchmarking-Short-Term-Load-Forecasting-Models/blob/main/reports/figures/04_actual_vs_predicted_final_14_days.png
