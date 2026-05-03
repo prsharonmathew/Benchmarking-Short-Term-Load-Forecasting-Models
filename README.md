@@ -6,14 +6,6 @@ This project is a compact benchmarking prototype for short-term electricity-dema
 
 The goal is to compare models transparently, not to claim a perfect production model.
 
-## Interview / Business Context
-
-The project mirrors a realistic internal Data Science model repository experiment:
-
-`data pipeline -> features -> model benchmark -> evaluation -> visualization -> next steps`
-
-In an operational energy context, accurate short-term demand forecasts can support planning, monitoring, and decision-making. For a working-student Data Scientist role, the important part is not only model accuracy, but also reliable validation, clear communication, and code that another team member could review and extend.
-
 ## Problem Statement
 
 Predict the next hour of electricity load in Germany using historical hourly load data. The benchmark compares simple and machine-learning approaches against a naive seasonal baseline.
